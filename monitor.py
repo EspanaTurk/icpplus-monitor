@@ -11,7 +11,7 @@ repeatedly). For each client profile in data/profiles.json, it:
      Extranjeria" flow for Barcelona (province -> sin certificado ->
      procedure -> calendar).
   2. Decides whether appointment slots seem to be available.
-  3. If available, sends a Telegram message with a direct link and updates
+  3. If available, sends an email with a direct link and updates
      data/status.json so the dashboard (GitHub Pages) shows an alert.
 
 It does NOT solve CAPTCHAs and does NOT submit any booking form - that part
@@ -21,11 +21,12 @@ is always done manually by you, quickly, after the alert.
 import json
 import os
 import random
+import smtplib
 import sys
 import time
 from datetime import datetime, timezone
+from email.mime.text import MIMEText
 
-import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -61,8 +62,11 @@ DEFAULT_NO_SLOTS_PHRASES = [
     "no hay horas disponibles",
 ]
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
+SMTP_USER = os.environ.get("GMAIL_EMAIL", "")        # e.g. realtoreelshorts@gmail.com
+SMTP_PASS = os.environ.get("GMAIL_APP_PASSWORD", "")  # 16-char app password
+ALERT_TO = os.environ.get("ALERT_EMAIL_TO", "") or SMTP_USER
 
 
 def human_delay(a: float = 0.4, b: float = 1.0) -> None:
@@ -155,26 +159,22 @@ def check_appointments(driver, profile: dict, log) -> tuple[bool, str]:
         return False, driver.current_url
 
 
-def send_telegram(text: str) -> None:
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        print("Telegram not configured - skipping notification.")
+def send_email(subject: str, body: str) -> None:
+    if not SMTP_USER or not SMTP_PASS or not ALERT_TO:
+        print("Email not configured - skipping notification.")
         return
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
-        resp = requests.post(
-            url,
-            data={
-                "chat_id": TELEGRAM_CHAT_ID,
-                "text": text,
-                "parse_mode": "HTML",
-                "disable_web_page_preview": False,
-            },
-            timeout=20,
-        )
-        if resp.status_code != 200:
-            print(f"Telegram send failed: {resp.status_code} {resp.text}")
+        msg = MIMEText(body, "plain", "utf-8")
+        msg["Subject"] = subject
+        msg["From"] = SMTP_USER
+        msg["To"] = ALERT_TO
+
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as server:
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASS)
+            server.sendmail(SMTP_USER, [ALERT_TO], msg.as_string())
     except Exception as e:
-        print(f"Telegram send error: {e}")
+        print(f"Email send error: {e}")
 
 
 def load_profiles() -> list:
@@ -271,17 +271,18 @@ def main():
 
         if result["status"] == "available":
             any_available = True
-            msg = (
-                f"🔔 <b>SLOT MAY BE AVAILABLE</b>\n\n"
-                f"<b>Client:</b> {result['name']}\n"
-                f"<b>Province:</b> {result['province']}\n"
-                f"<b>Procedure:</b> {result['procedure_name']}\n\n"
+            subject = f"🔔 ICPPLUS slot may be available: {result['name']}"
+            body = (
+                f"SLOT MAY BE AVAILABLE\n\n"
+                f"Client: {result['name']}\n"
+                f"Province: {result['province']}\n"
+                f"Procedure: {result['procedure_name']}\n\n"
                 f"Link: {result['url']}\n\n"
-                f"⚡ Open this link, redo province/procedure selection if "
+                f"Open this link, redo province/procedure selection if "
                 f"needed, use Autofill (Tampermonkey), solve CAPTCHA + SMS, "
                 f"and submit FAST - slots disappear in seconds!"
             )
-            send_telegram(msg)
+            send_email(subject, body)
 
         # Small pause between profiles to avoid hammering the site back-to-back
         human_delay(1.5, 3)
