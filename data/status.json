@@ -6,10 +6,11 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-07-02T12:26:09+00:00",
+      "last_check": "2026-07-02T14:34:30+00:00",
       "logs": [
-        "[12:25:09] Opening ICPPLUS home page...",
-        "[12:26:09] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=149.0.7827.155)\nStacktrace:\n#0 0x55a3f6ebe3da <unknown>\n#1 0x55a3f68a0139 <unknown>\n#2 0x55a3f6887a1b <unknown>\n#3 0x55a3f6887696 <unknown>\n#4 0x55a3f688527b <unknown>\n#5 0x55a3f6885bff <unknown>\n#6 0x55a3f6894e70 <unknown>\n#7 0x55a3f68aeea7 <unknown>\n#8 0x55a3f68b671b <unknown>\n#9 0x55a3f6886359 <unknown>\n#10 0x55a3f68aec09 <unknown>\n#11 0x55a3f693ca25 <unknown>\n#12 0x55a3f68e7e4f <unknown>\n#13 0x55a3f68e8c31 <unknown>\n#14 0x55a3f6e849f7 <unknown>\n#15 0x55a3f6e83203 <unknown>\n#16 0x55a3f6e6df16 <unknown>\n#17 0x55a3f6e83d9a <unknown>\n#18 0x55a3f6e55eb0 <unknown>\n#19 0x55a3f6eaad58 <unknown>\n#20 0x55a3f6eaaef5 <unknown>\n#21 0x55a3f6ebcf5e <unknown>\n#22 0x7f7a65e9caa4 <unknown>\n#23 0x7f7a65f29c6c <unknown>\n"
+        "[14:34:02] Opening ICPPLUS home page...",
+        "[14:34:10] Selecting province 'Barcelona'...",
+        "[14:34:30] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x55bf86b5e3da <unknown>\n#1 0x55bf86540139 <unknown>\n#2 0x55bf86594884 <unknown>\n#3 0x55bf86594ad1 <unknown>\n#4 0x55bf865df974 <unknown>\n#5 0x55bf865dcb5c <unknown>\n#6 0x55bf86587e4f <unknown>\n#7 0x55bf86588c31 <unknown>\n#8 0x55bf86b249f7 <unknown>\n#9 0x55bf86b23203 <unknown>\n#10 0x55bf86b0df16 <unknown>\n#11 0x55bf86b23d9a <unknown>\n#12 0x55bf86af5eb0 <unknown>\n#13 0x55bf86b4ad58 <unknown>\n#14 0x55bf86b4aef5 <unknown>\n#15 0x55bf86b5cf5e <unknown>\n#16 0x7fcd4d29caa4 <unknown>\n#17 0x7fcd4d329c6c <unknown>\n"
       ]
     },
     "client2": {
@@ -18,12 +19,13 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-07-02T12:27:12+00:00",
+      "last_check": "2026-07-02T14:35:01+00:00",
       "logs": [
-        "[12:26:12] Opening ICPPLUS home page...",
-        "[12:27:12] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=149.0.7827.155)\nStacktrace:\n#0 0x562a181a93da <unknown>\n#1 0x562a17b8b139 <unknown>\n#2 0x562a17b72a1b <unknown>\n#3 0x562a17b72696 <unknown>\n#4 0x562a17b7027b <unknown>\n#5 0x562a17b70bff <unknown>\n#6 0x562a17b7fe70 <unknown>\n#7 0x562a17b99ea7 <unknown>\n#8 0x562a17ba171b <unknown>\n#9 0x562a17b71359 <unknown>\n#10 0x562a17b99c09 <unknown>\n#11 0x562a17c27a25 <unknown>\n#12 0x562a17bd2e4f <unknown>\n#13 0x562a17bd3c31 <unknown>\n#14 0x562a1816f9f7 <unknown>\n#15 0x562a1816e203 <unknown>\n#16 0x562a18158f16 <unknown>\n#17 0x562a1816ed9a <unknown>\n#18 0x562a18140eb0 <unknown>\n#19 0x562a18195d58 <unknown>\n#20 0x562a18195ef5 <unknown>\n#21 0x562a181a7f5e <unknown>\n#22 0x7f4c9869caa4 <unknown>\n#23 0x7f4c98729c6c <unknown>\n"
+        "[14:34:33] Opening ICPPLUS home page...",
+        "[14:34:41] Selecting province 'Barcelona'...",
+        "[14:35:01] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x5579d998e3da <unknown>\n#1 0x5579d9370139 <unknown>\n#2 0x5579d93c4884 <unknown>\n#3 0x5579d93c4ad1 <unknown>\n#4 0x5579d940f974 <unknown>\n#5 0x5579d940cb5c <unknown>\n#6 0x5579d93b7e4f <unknown>\n#7 0x5579d93b8c31 <unknown>\n#8 0x5579d99549f7 <unknown>\n#9 0x5579d9953203 <unknown>\n#10 0x5579d993df16 <unknown>\n#11 0x5579d9953d9a <unknown>\n#12 0x5579d9925eb0 <unknown>\n#13 0x5579d997ad58 <unknown>\n#14 0x5579d997aef5 <unknown>\n#15 0x5579d998cf5e <unknown>\n#16 0x7f0084a9caa4 <unknown>\n#17 0x7f0084b29c6c <unknown>\n"
       ]
     }
   },
-  "last_run": "2026-07-02T12:27:14+00:00"
+  "last_run": "2026-07-02T14:35:04+00:00"
 }
