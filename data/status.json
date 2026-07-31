@@ -6,10 +6,10 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-07-31T04:36:55+00:00",
+      "last_check": "2026-07-31T07:33:05+00:00",
       "logs": [
-        "[04:35:55] Opening ICPPLUS home page...",
-        "[04:36:55] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.001\n  (Session info: chrome=150.0.7871.128)\nStacktrace:\n#0 0x55c0d7d4144a <unknown>\n#1 0x55c0d77198c9 <unknown>\n#2 0x55c0d770135a <unknown>\n#3 0x55c0d7700fd6 <unknown>\n#4 0x55c0d76febbe <unknown>\n#5 0x55c0d76ff53f <unknown>\n#6 0x55c0d770e710 <unknown>\n#7 0x55c0d7728617 <unknown>\n#8 0x55c0d772fe8b <unknown>\n#9 0x55c0d76ffc99 <unknown>\n#10 0x55c0d7728372 <unknown>\n#11 0x55c0d77b7420 <unknown>\n#12 0x55c0d77623ff <unknown>\n#13 0x55c0d7763261 <unknown>\n#14 0x55c0d7d06cc7 <unknown>\n#15 0x55c0d7d054a8 <unknown>\n#16 0x55c0d7cf0196 <unknown>\n#17 0x55c0d7d0606a <unknown>\n#18 0x55c0d7cd8020 <unknown>\n#19 0x55c0d7d2cb98 <unknown>\n#20 0x55c0d7d2cd35 <unknown>\n#21 0x55c0d7d3fffe <unknown>\n#22 0x7fc207e9caa4 <unknown>\n#23 0x7fc207f29c6c <unknown>\n"
+        "[07:32:05] Opening ICPPLUS home page...",
+        "[07:33:05] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=150.0.7871.128)\nStacktrace:\n#0 0x55ab00e5444a <unknown>\n#1 0x55ab0082c8c9 <unknown>\n#2 0x55ab0081435a <unknown>\n#3 0x55ab00813fd6 <unknown>\n#4 0x55ab00811bbe <unknown>\n#5 0x55ab0081253f <unknown>\n#6 0x55ab00821710 <unknown>\n#7 0x55ab0083b617 <unknown>\n#8 0x55ab00842e8b <unknown>\n#9 0x55ab00812c99 <unknown>\n#10 0x55ab0083b372 <unknown>\n#11 0x55ab008ca420 <unknown>\n#12 0x55ab008753ff <unknown>\n#13 0x55ab00876261 <unknown>\n#14 0x55ab00e19cc7 <unknown>\n#15 0x55ab00e184a8 <unknown>\n#16 0x55ab00e03196 <unknown>\n#17 0x55ab00e1906a <unknown>\n#18 0x55ab00deb020 <unknown>\n#19 0x55ab00e3fb98 <unknown>\n#20 0x55ab00e3fd35 <unknown>\n#21 0x55ab00e52ffe <unknown>\n#22 0x7fdb6b49caa4 <unknown>\n#23 0x7fdb6b529c6c <unknown>\n"
       ]
     },
     "client2": {
@@ -18,12 +18,12 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-07-31T04:37:58+00:00",
+      "last_check": "2026-07-31T07:34:07+00:00",
       "logs": [
-        "[04:36:58] Opening ICPPLUS home page...",
-        "[04:37:58] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.001\n  (Session info: chrome=150.0.7871.128)\nStacktrace:\n#0 0x55bec3a9844a <unknown>\n#1 0x55bec34708c9 <unknown>\n#2 0x55bec345835a <unknown>\n#3 0x55bec3457fd6 <unknown>\n#4 0x55bec3455bbe <unknown>\n#5 0x55bec345653f <unknown>\n#6 0x55bec3465710 <unknown>\n#7 0x55bec347f617 <unknown>\n#8 0x55bec3486e8b <unknown>\n#9 0x55bec3456c99 <unknown>\n#10 0x55bec347f372 <unknown>\n#11 0x55bec350e420 <unknown>\n#12 0x55bec34b93ff <unknown>\n#13 0x55bec34ba261 <unknown>\n#14 0x55bec3a5dcc7 <unknown>\n#15 0x55bec3a5c4a8 <unknown>\n#16 0x55bec3a47196 <unknown>\n#17 0x55bec3a5d06a <unknown>\n#18 0x55bec3a2f020 <unknown>\n#19 0x55bec3a83b98 <unknown>\n#20 0x55bec3a83d35 <unknown>\n#21 0x55bec3a96ffe <unknown>\n#22 0x7f83f269caa4 <unknown>\n#23 0x7f83f2729c6c <unknown>\n"
+        "[07:33:07] Opening ICPPLUS home page...",
+        "[07:34:07] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=150.0.7871.128)\nStacktrace:\n#0 0x560c11bf844a <unknown>\n#1 0x560c115d08c9 <unknown>\n#2 0x560c115b835a <unknown>\n#3 0x560c115b7fd6 <unknown>\n#4 0x560c115b5bbe <unknown>\n#5 0x560c115b653f <unknown>\n#6 0x560c115c5710 <unknown>\n#7 0x560c115df617 <unknown>\n#8 0x560c115e6e8b <unknown>\n#9 0x560c115b6c99 <unknown>\n#10 0x560c115df372 <unknown>\n#11 0x560c1166e420 <unknown>\n#12 0x560c116193ff <unknown>\n#13 0x560c1161a261 <unknown>\n#14 0x560c11bbdcc7 <unknown>\n#15 0x560c11bbc4a8 <unknown>\n#16 0x560c11ba7196 <unknown>\n#17 0x560c11bbd06a <unknown>\n#18 0x560c11b8f020 <unknown>\n#19 0x560c11be3b98 <unknown>\n#20 0x560c11be3d35 <unknown>\n#21 0x560c11bf6ffe <unknown>\n#22 0x7f419c29caa4 <unknown>\n#23 0x7f419c329c6c <unknown>\n"
       ]
     }
   },
-  "last_run": "2026-07-31T04:38:01+00:00"
+  "last_run": "2026-07-31T07:34:09+00:00"
 }
