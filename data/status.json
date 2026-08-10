@@ -6,11 +6,10 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-08-10T15:35:44+00:00",
+      "last_check": "2026-08-10T16:29:38+00:00",
       "logs": [
-        "[15:35:15] Opening ICPPLUS home page...",
-        "[15:35:23] Selecting province 'Barcelona'...",
-        "[15:35:44] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x558b6b3d244a <unknown>\n#1 0x558b6adaa8c9 <unknown>\n#2 0x558b6adfff32 <unknown>\n#3 0x558b6ae00181 <unknown>\n#4 0x558b6ae4b374 <unknown>\n#5 0x558b6ae4855d <unknown>\n#6 0x558b6adf33ff <unknown>\n#7 0x558b6adf4261 <unknown>\n#8 0x558b6b397cc7 <unknown>\n#9 0x558b6b3964a8 <unknown>\n#10 0x558b6b381196 <unknown>\n#11 0x558b6b39706a <unknown>\n#12 0x558b6b369020 <unknown>\n#13 0x558b6b3bdb98 <unknown>\n#14 0x558b6b3bdd35 <unknown>\n#15 0x558b6b3d0ffe <unknown>\n#16 0x7f665f09caa4 <unknown>\n#17 0x7f665f129c6c <unknown>\n"
+        "[16:28:38] Opening ICPPLUS home page...",
+        "[16:29:38] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=150.0.7871.128)\nStacktrace:\n#0 0x560efaa8144a <unknown>\n#1 0x560efa4598c9 <unknown>\n#2 0x560efa44135a <unknown>\n#3 0x560efa440fd6 <unknown>\n#4 0x560efa43ebbe <unknown>\n#5 0x560efa43f53f <unknown>\n#6 0x560efa44e710 <unknown>\n#7 0x560efa468617 <unknown>\n#8 0x560efa46fe8b <unknown>\n#9 0x560efa43fc99 <unknown>\n#10 0x560efa468372 <unknown>\n#11 0x560efa4f7420 <unknown>\n#12 0x560efa4a23ff <unknown>\n#13 0x560efa4a3261 <unknown>\n#14 0x560efaa46cc7 <unknown>\n#15 0x560efaa454a8 <unknown>\n#16 0x560efaa30196 <unknown>\n#17 0x560efaa4606a <unknown>\n#18 0x560efaa18020 <unknown>\n#19 0x560efaa6cb98 <unknown>\n#20 0x560efaa6cd35 <unknown>\n#21 0x560efaa7fffe <unknown>\n#22 0x7f7d5129caa4 <unknown>\n#23 0x7f7d51329c6c <unknown>\n"
       ]
     },
     "client2": {
@@ -19,13 +18,12 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-08-10T15:36:16+00:00",
+      "last_check": "2026-08-10T16:30:41+00:00",
       "logs": [
-        "[15:35:46] Opening ICPPLUS home page...",
-        "[15:35:55] Selecting province 'Barcelona'...",
-        "[15:36:16] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x556dfc29d44a <unknown>\n#1 0x556dfbc758c9 <unknown>\n#2 0x556dfbccaf32 <unknown>\n#3 0x556dfbccb181 <unknown>\n#4 0x556dfbd16374 <unknown>\n#5 0x556dfbd1355d <unknown>\n#6 0x556dfbcbe3ff <unknown>\n#7 0x556dfbcbf261 <unknown>\n#8 0x556dfc262cc7 <unknown>\n#9 0x556dfc2614a8 <unknown>\n#10 0x556dfc24c196 <unknown>\n#11 0x556dfc26206a <unknown>\n#12 0x556dfc234020 <unknown>\n#13 0x556dfc288b98 <unknown>\n#14 0x556dfc288d35 <unknown>\n#15 0x556dfc29bffe <unknown>\n#16 0x7fbf7a69caa4 <unknown>\n#17 0x7fbf7a729c6c <unknown>\n"
+        "[16:29:41] Opening ICPPLUS home page...",
+        "[16:30:41] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=150.0.7871.128)\nStacktrace:\n#0 0x55583f8a244a <unknown>\n#1 0x55583f27a8c9 <unknown>\n#2 0x55583f26235a <unknown>\n#3 0x55583f261fd6 <unknown>\n#4 0x55583f25fbbe <unknown>\n#5 0x55583f26053f <unknown>\n#6 0x55583f26f710 <unknown>\n#7 0x55583f289617 <unknown>\n#8 0x55583f290e8b <unknown>\n#9 0x55583f260c99 <unknown>\n#10 0x55583f289372 <unknown>\n#11 0x55583f318420 <unknown>\n#12 0x55583f2c33ff <unknown>\n#13 0x55583f2c4261 <unknown>\n#14 0x55583f867cc7 <unknown>\n#15 0x55583f8664a8 <unknown>\n#16 0x55583f851196 <unknown>\n#17 0x55583f86706a <unknown>\n#18 0x55583f839020 <unknown>\n#19 0x55583f88db98 <unknown>\n#20 0x55583f88dd35 <unknown>\n#21 0x55583f8a0ffe <unknown>\n#22 0x7fc9dea9caa4 <unknown>\n#23 0x7fc9deb29c6c <unknown>\n"
       ]
     }
   },
-  "last_run": "2026-08-10T15:36:18+00:00"
+  "last_run": "2026-08-10T16:30:43+00:00"
 }
