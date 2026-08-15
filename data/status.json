@@ -6,10 +6,11 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-08-15T03:52:02+00:00",
+      "last_check": "2026-08-15T04:18:05+00:00",
       "logs": [
-        "[03:51:02] Opening ICPPLUS home page...",
-        "[03:52:02] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=151.0.7922.108)\nStacktrace:\n#0 0x56019f2da36a <unknown>\n#1 0x56019ec4df49 <unknown>\n#2 0x56019ec3599b <unknown>\n#3 0x56019ec35616 <unknown>\n#4 0x56019ec331fe <unknown>\n#5 0x56019ec33b7f <unknown>\n#6 0x56019ec42cf0 <unknown>\n#7 0x56019ec5ccb7 <unknown>\n#8 0x56019ec6468b <unknown>\n#9 0x56019ec342d9 <unknown>\n#10 0x56019ec5ca12 <unknown>\n#11 0x56019ecebf86 <unknown>\n#12 0x56019ec96c92 <unknown>\n#13 0x56019ec97b11 <unknown>\n#14 0x56019f29f8d0 <unknown>\n#15 0x56019f29df3a <unknown>\n#16 0x56019f2889b5 <unknown>\n#17 0x56019f29ec0a <unknown>\n#18 0x56019f270740 <unknown>\n#19 0x56019f2c59a8 <unknown>\n#20 0x56019f2c5b45 <unknown>\n#21 0x56019f2d8f1e <unknown>\n#22 0x7f0ccd49cb84 <unknown>\n#23 0x7f0ccd529d6c <unknown>\n"
+        "[04:17:37] Opening ICPPLUS home page...",
+        "[04:17:45] Selecting province 'Barcelona'...",
+        "[04:18:05] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x56102efb936a <unknown>\n#1 0x56102e92cf49 <unknown>\n#2 0x56102e9827e2 <unknown>\n#3 0x56102e982a31 <unknown>\n#4 0x56102e9cded4 <unknown>\n#5 0x56102e9cb0c3 <unknown>\n#6 0x56102e975c92 <unknown>\n#7 0x56102e976b11 <unknown>\n#8 0x56102ef7e8d0 <unknown>\n#9 0x56102ef7cf3a <unknown>\n#10 0x56102ef679b5 <unknown>\n#11 0x56102ef7dc0a <unknown>\n#12 0x56102ef4f740 <unknown>\n#13 0x56102efa49a8 <unknown>\n#14 0x56102efa4b45 <unknown>\n#15 0x56102efb7f1e <unknown>\n#16 0x7f8f1cc9cb84 <unknown>\n#17 0x7f8f1cd29d6c <unknown>\n"
       ]
     },
     "client2": {
@@ -18,12 +19,12 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-08-15T03:53:05+00:00",
+      "last_check": "2026-08-15T04:18:30+00:00",
       "logs": [
-        "[03:52:05] Opening ICPPLUS home page...",
-        "[03:53:05] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: -0.002\n  (Session info: chrome=151.0.7922.108)\nStacktrace:\n#0 0x559612f0036a <unknown>\n#1 0x559612873f49 <unknown>\n#2 0x55961285b99b <unknown>\n#3 0x55961285b616 <unknown>\n#4 0x5596128591fe <unknown>\n#5 0x559612859b7f <unknown>\n#6 0x559612868cf0 <unknown>\n#7 0x559612882cb7 <unknown>\n#8 0x55961288a68b <unknown>\n#9 0x55961285a2d9 <unknown>\n#10 0x559612882a12 <unknown>\n#11 0x559612911f86 <unknown>\n#12 0x5596128bcc92 <unknown>\n#13 0x5596128bdb11 <unknown>\n#14 0x559612ec58d0 <unknown>\n#15 0x559612ec3f3a <unknown>\n#16 0x559612eae9b5 <unknown>\n#17 0x559612ec4c0a <unknown>\n#18 0x559612e96740 <unknown>\n#19 0x559612eeb9a8 <unknown>\n#20 0x559612eebb45 <unknown>\n#21 0x559612efef1e <unknown>\n#22 0x7faba449cb84 <unknown>\n#23 0x7faba4529d6c <unknown>\n"
+        "[04:18:08] Opening ICPPLUS home page...",
+        "[04:18:30] Browser/WebDriver error: Message: unknown error: net::ERR_CONNECTION_RESET\n  (Session info: chrome=151.0.7922.108)\nStacktrace:\n#0 0x56554126636a <unknown>\n#1 0x565540bd9f49 <unknown>\n#2 0x565540bd0d9c <unknown>\n#3 0x565540bc1e81 <unknown>\n#4 0x565540bc3bf5 <unknown>\n#5 0x565540bc237a <unknown>\n#6 0x565540bc19f9 <unknown>\n#7 0x565540bc1616 <unknown>\n#8 0x565540bbf1fe <unknown>\n#9 0x565540bbfa40 <unknown>\n#10 0x565540bdd9fd <unknown>\n#11 0x565540c78dcb <unknown>\n#12 0x565540c780c3 <unknown>\n#13 0x565540c22c92 <unknown>\n#14 0x565540c23b11 <unknown>\n#15 0x56554122b8d0 <unknown>\n#16 0x565541229f3a <unknown>\n#17 0x5655412149b5 <unknown>\n#18 0x56554122ac0a <unknown>\n#19 0x5655411fc740 <unknown>\n#20 0x5655412519a8 <unknown>\n#21 0x565541251b45 <unknown>\n#22 0x565541264f1e <unknown>\n#23 0x7f9593e9cb84 <unknown>\n#24 0x7f9593f29d6c <unknown>\n"
       ]
     }
   },
-  "last_run": "2026-08-15T03:53:07+00:00"
+  "last_run": "2026-08-15T04:18:31+00:00"
 }
