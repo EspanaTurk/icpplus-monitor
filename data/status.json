@@ -6,11 +6,11 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-08-22T06:18:04+00:00",
+      "last_check": "2026-08-22T07:06:36+00:00",
       "logs": [
-        "[06:17:34] Opening ICPPLUS home page...",
-        "[06:17:44] Selecting province 'Barcelona'...",
-        "[06:18:04] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x557299aa936a <unknown>\n#1 0x55729941cf49 <unknown>\n#2 0x5572994727e2 <unknown>\n#3 0x557299472a31 <unknown>\n#4 0x5572994bded4 <unknown>\n#5 0x5572994bb0c3 <unknown>\n#6 0x557299465c92 <unknown>\n#7 0x557299466b11 <unknown>\n#8 0x557299a6e8d0 <unknown>\n#9 0x557299a6cf3a <unknown>\n#10 0x557299a579b5 <unknown>\n#11 0x557299a6dc0a <unknown>\n#12 0x557299a3f740 <unknown>\n#13 0x557299a949a8 <unknown>\n#14 0x557299a94b45 <unknown>\n#15 0x557299aa7f1e <unknown>\n#16 0x7fb398c9cb84 <unknown>\n#17 0x7fb398d29d6c <unknown>\n"
+        "[07:06:08] Opening ICPPLUS home page...",
+        "[07:06:16] Selecting province 'Barcelona'...",
+        "[07:06:36] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x556f5368836a <unknown>\n#1 0x556f52ffbf49 <unknown>\n#2 0x556f530517e2 <unknown>\n#3 0x556f53051a31 <unknown>\n#4 0x556f5309ced4 <unknown>\n#5 0x556f5309a0c3 <unknown>\n#6 0x556f53044c92 <unknown>\n#7 0x556f53045b11 <unknown>\n#8 0x556f5364d8d0 <unknown>\n#9 0x556f5364bf3a <unknown>\n#10 0x556f536369b5 <unknown>\n#11 0x556f5364cc0a <unknown>\n#12 0x556f5361e740 <unknown>\n#13 0x556f536739a8 <unknown>\n#14 0x556f53673b45 <unknown>\n#15 0x556f53686f1e <unknown>\n#16 0x7fe82009cb84 <unknown>\n#17 0x7fe820129d6c <unknown>\n"
       ]
     },
     "client2": {
@@ -19,13 +19,13 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-08-22T06:18:35+00:00",
+      "last_check": "2026-08-22T07:07:08+00:00",
       "logs": [
-        "[06:18:06] Opening ICPPLUS home page...",
-        "[06:18:15] Selecting province 'Barcelona'...",
-        "[06:18:35] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x5589cd17836a <unknown>\n#1 0x5589ccaebf49 <unknown>\n#2 0x5589ccb417e2 <unknown>\n#3 0x5589ccb41a31 <unknown>\n#4 0x5589ccb8ced4 <unknown>\n#5 0x5589ccb8a0c3 <unknown>\n#6 0x5589ccb34c92 <unknown>\n#7 0x5589ccb35b11 <unknown>\n#8 0x5589cd13d8d0 <unknown>\n#9 0x5589cd13bf3a <unknown>\n#10 0x5589cd1269b5 <unknown>\n#11 0x5589cd13cc0a <unknown>\n#12 0x5589cd10e740 <unknown>\n#13 0x5589cd1639a8 <unknown>\n#14 0x5589cd163b45 <unknown>\n#15 0x5589cd176f1e <unknown>\n#16 0x7fdde1a9cb84 <unknown>\n#17 0x7fdde1b29d6c <unknown>\n"
+        "[07:06:39] Opening ICPPLUS home page...",
+        "[07:06:48] Selecting province 'Barcelona'...",
+        "[07:07:08] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x5622e2eec36a <unknown>\n#1 0x5622e285ff49 <unknown>\n#2 0x5622e28b57e2 <unknown>\n#3 0x5622e28b5a31 <unknown>\n#4 0x5622e2900ed4 <unknown>\n#5 0x5622e28fe0c3 <unknown>\n#6 0x5622e28a8c92 <unknown>\n#7 0x5622e28a9b11 <unknown>\n#8 0x5622e2eb18d0 <unknown>\n#9 0x5622e2eaff3a <unknown>\n#10 0x5622e2e9a9b5 <unknown>\n#11 0x5622e2eb0c0a <unknown>\n#12 0x5622e2e82740 <unknown>\n#13 0x5622e2ed79a8 <unknown>\n#14 0x5622e2ed7b45 <unknown>\n#15 0x5622e2eeaf1e <unknown>\n#16 0x7f0a0169cb84 <unknown>\n#17 0x7f0a01729d6c <unknown>\n"
       ]
     }
   },
-  "last_run": "2026-08-22T06:18:37+00:00"
+  "last_run": "2026-08-22T07:07:11+00:00"
 }
