@@ -6,10 +6,11 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-11-23T01:43:11+00:00",
+      "last_check": "2026-11-23T09:46:42+00:00",
       "logs": [
-        "[01:42:11] Opening ICPPLUS home page...",
-        "[01:43:11] Browser/WebDriver error: Message: timeout: Timed out receiving message from renderer: 58.570\n  (Session info: chrome=157.0.8103.78)\nStacktrace:\n#0 0x5ba56ceb6caa <unknown>\n#1 0x5ba56c7eacc5 <unknown>\n#2 0x5ba56c7dab32 <unknown>\n#3 0x5ba56c7da8a6 <unknown>\n#4 0x5ba56c7d902b <unknown>\n#5 0x5ba56c7d943f <unknown>\n#6 0x5ba56c7e49d6 <unknown>\n#7 0x5ba56c7f5b90 <unknown>\n#8 0x5ba56c7fb99b <unknown>\n#9 0x5ba56c7d9d17 <unknown>\n#10 0x5ba56c7d9a38 <unknown>\n#11 0x5ba56c7f5a53 <unknown>\n#12 0x5ba56c86c9fc <unknown>\n#13 0x5ba56c827557 <unknown>\n#14 0x5ba56c82686e <unknown>\n#15 0x5ba56c827341 <unknown>\n#16 0x5ba56ce7979c <unknown>\n#17 0x5ba56ce77fcd <unknown>\n#18 0x5ba56ce62df5 <unknown>\n#19 0x5ba56ce78c0a <unknown>\n#20 0x5ba56ce4bb99 <unknown>\n#21 0x5ba56cea1318 <unknown>\n#22 0x5ba56cea14b5 <unknown>\n#23 0x5ba56ceb5633 <unknown>\n#24 0x7325adcabdeb <unknown>\n#25 0x7325add3f4dc <unknown>\n"
+        "[09:46:06] Opening ICPPLUS home page...",
+        "[09:46:22] Selecting province 'Barcelona'...",
+        "[09:46:42] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x6158c32fccaa <unknown>\n#1 0x6158c2c30cc5 <unknown>\n#2 0x6158c2c767df <unknown>\n#3 0x6158c2c76971 <unknown>\n#4 0x6158c2cb4734 <unknown>\n#5 0x6158c2cb2db3 <unknown>\n#6 0x6158c2cb26c1 <unknown>\n#7 0x6158c2c6d557 <unknown>\n#8 0x6158c2c6c86e <unknown>\n#9 0x6158c2c6d341 <unknown>\n#10 0x6158c32bf79c <unknown>\n#11 0x6158c32bdfcd <unknown>\n#12 0x6158c32a8df5 <unknown>\n#13 0x6158c32bec0a <unknown>\n#14 0x6158c3291b99 <unknown>\n#15 0x6158c32e7318 <unknown>\n#16 0x6158c32e74b5 <unknown>\n#17 0x6158c32fb633 <unknown>\n#18 0x7dcd882abdeb <unknown>\n#19 0x7dcd8833f4dc <unknown>\n"
       ]
     },
     "client2": {
@@ -18,12 +19,13 @@
       "procedure_name": "POLICIA-TOMA DE HUELLAS (EXPEDICION DE TARJETA)",
       "status": "error",
       "url": null,
-      "last_check": "2026-11-23T01:43:28+00:00",
+      "last_check": "2026-11-23T09:47:20+00:00",
       "logs": [
-        "[01:43:14] Opening ICPPLUS home page...",
-        "[01:43:28] Browser/WebDriver error: Message: unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: chrome=157.0.8103.78)\nStacktrace:\n#0 0x5d7c8bf48caa <unknown>\n#1 0x5d7c8b87ccc5 <unknown>\n#2 0x5d7c8b8783b3 <unknown>\n#3 0x5d7c8b86cd31 <unknown>\n#4 0x5d7c8b86e183 <unknown>\n#5 0x5d7c8b86d060 <unknown>\n#6 0x5d7c8b86cb94 <unknown>\n#7 0x5d7c8b86c8a6 <unknown>\n#8 0x5d7c8b86b02b <unknown>\n#9 0x5d7c8b86b300 <unknown>\n#10 0x5d7c8b87fc71 <unknown>\n#11 0x5d7c8b8fee5b <unknown>\n#12 0x5d7c8b8fedb3 <unknown>\n#13 0x5d7c8b8fe6c1 <unknown>\n#14 0x5d7c8b8b9557 <unknown>\n#15 0x5d7c8b8b886e <unknown>\n#16 0x5d7c8b8b9341 <unknown>\n#17 0x5d7c8bf0b79c <unknown>\n#18 0x5d7c8bf09fcd <unknown>\n#19 0x5d7c8bef4df5 <unknown>\n#20 0x5d7c8bf0ac0a <unknown>\n#21 0x5d7c8beddb99 <unknown>\n#22 0x5d7c8bf33318 <unknown>\n#23 0x5d7c8bf334b5 <unknown>\n#24 0x5d7c8bf47633 <unknown>\n#25 0x7875326abdeb <unknown>\n#26 0x78753273f4dc <unknown>\n"
+        "[09:46:45] Opening ICPPLUS home page...",
+        "[09:46:59] Selecting province 'Barcelona'...",
+        "[09:47:20] Browser/WebDriver error: Message: \nStacktrace:\n#0 0x621ff4baacaa <unknown>\n#1 0x621ff44decc5 <unknown>\n#2 0x621ff45247df <unknown>\n#3 0x621ff4524971 <unknown>\n#4 0x621ff4562734 <unknown>\n#5 0x621ff4560db3 <unknown>\n#6 0x621ff45606c1 <unknown>\n#7 0x621ff451b557 <unknown>\n#8 0x621ff451a86e <unknown>\n#9 0x621ff451b341 <unknown>\n#10 0x621ff4b6d79c <unknown>\n#11 0x621ff4b6bfcd <unknown>\n#12 0x621ff4b56df5 <unknown>\n#13 0x621ff4b6cc0a <unknown>\n#14 0x621ff4b3fb99 <unknown>\n#15 0x621ff4b95318 <unknown>\n#16 0x621ff4b954b5 <unknown>\n#17 0x621ff4ba9633 <unknown>\n#18 0x76ae93cabdeb <unknown>\n#19 0x76ae93d3f4dc <unknown>\n"
       ]
     }
   },
-  "last_run": "2026-11-23T01:43:30+00:00"
+  "last_run": "2026-11-23T09:47:22+00:00"
 }
